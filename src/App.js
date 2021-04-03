@@ -1,35 +1,36 @@
 import React from "react";
-import { Header } from "./Component/Header";
-import Footer from "./Component/Footer";
+// import { Header } from "./Component/Header";
+// import Footer from "./Component/Footer";
 
 import './App.css';
-import Channel from "./Component/Channel";
-import FFunctionClick from "./Component/FFunctionClick";
-import CFunctionClick from "./Component/CFunctionClick";
+// import Channel from "./Component/Channel";
+// import FFunctionClick from "./Component/FFunctionClick";
+// import CFunctionClick from "./Component/CFunctionClick";
+import StyleSheet from "./Component/StyleSheet";
 
-const name = <span>WALEED KHAN</span>;
+// const name = <span>WALEED KHAN</span>;
 
-//Element without JSX
-const newElement = React.createElement("h2", { className: "newElement" }, 'New Element Without JSX');
+// //Element without JSX
+// const newElement = React.createElement("h2", { className: "newElement" }, 'New Element Without JSX');
 
-//Normal Function
-const alertName = function () {
-  alert("Waleed Khan");
-}
+// //Normal Function
+// const alertName = function () {
+//   alert("Waleed Khan");
+// }
 
-//Arrow Function
-const alertNameTwo = () => {
-  alert("Muhammad Waleed Khan By Arrow Function")
-}
+// //Arrow Function
+// const alertNameTwo = () => {
+//   alert("Muhammad Waleed Khan By Arrow Function")
+// }
 
-//function that checks age
-const age = (a) => {
-  if (a > 18) {
-    return <span>You are Eligible</span>
-  } else {
-    return <span>You aren't Eligible</span>
-  }
-}
+// //function that checks age
+// const age = (a) => {
+//   if (a > 18) {
+//     return <span>You are Eligible</span>
+//   } else {
+//     return <span>You aren't Eligible</span>
+//   }
+// }
 
 // Functional Component
 // function App() {
@@ -60,9 +61,10 @@ const age = (a) => {
 
 class App extends React.Component {
   render() {
-    const numbers = [2, 3, 4, 5, 6];
+    // const numbers = [1, 2, 3, 4, 5, 6];
     return (
       <div className="App">
+        {/*
         <Header name="Waleed" lastName="Khan">
           <p>Waleed is a Good Boy</p>
         </Header>
@@ -75,7 +77,8 @@ class App extends React.Component {
         <Channel />
         <FFunctionClick />
         <CFunctionClick regNo="42453" numbers={numbers} />
-        <Footer name="Waleed" lastName="Khan" />
+        <Footer name="Waleed" lastName="Khan" /> */}
+        <StyleSheet isValue={true}></StyleSheet>
       </div>
     );
   }

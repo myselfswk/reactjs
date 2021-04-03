@@ -36,14 +36,19 @@ class CFunctionClick extends Component {
     }
     render() {
         const numbers = this.props.numbers;
+        // console.log(numbers);
+        //map with normal function
         const newNumbers = numbers.map(function (number) {
-            return <li style={{listStyle:'none'}}>{number}</li>
+            // console.log(number);
+            return (
+                <li style={{ listStyle: 'none' }} key={number}>{number}</li>
+            );
         });
 
         //map with arrow function
         const arrowNewNumbers = numbers.map((value, index) => {
             return (
-                <li style={{listStyle:'none'}} key={index}>{value}</li>
+                <li style={{ listStyle: 'none' }} key={index}>{value}</li>
             );
         })
         // console.log(newNumbers);
@@ -61,7 +66,7 @@ class CFunctionClick extends Component {
                 <ul>
                     {
                         numbers.map((number) => {
-                            return <li style={{listStyle:'none'}}>{number}</li>
+                            return <li style={{ listStyle: 'none' }}>{number}</li>
                         })
                     }
                 </ul>
