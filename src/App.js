@@ -1,13 +1,12 @@
 import React from "react";
-
+import Routing from './Component/Routing'
 import './App.css';
 
 class App extends React.Component {
   render() {
-    // const numbers = [1, 2, 3, 4, 5, 6];
     return (
       <div className="App">
-        
+        <Routing></Routing>
       </div>
     );
   }
