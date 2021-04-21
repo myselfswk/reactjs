@@ -1,12 +1,13 @@
 import React from "react";
-import Routing from './Component/Routing'
+import LifeCycleA from "./Component/LifeCycleA";
+
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Routing></Routing>
+        <LifeCycleA></LifeCycleA>
       </div>
     );
   }

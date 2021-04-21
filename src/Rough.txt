@@ -11,6 +11,9 @@
 // import Inline from './Component/Inline';
 // import Form from "./Component/Form";
 
+// import Routing from './Component/Routing';
+
+
 
 // const name = <span>WALEED KHAN</span>;
 // const numbers = [1, 2, 3, 4, 5, 6];
@@ -82,3 +85,5 @@
         <Inline /> */}
 
 //      <Form></Form>
+
+//      <Routing></Routing>
