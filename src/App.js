@@ -1,5 +1,5 @@
 import React from "react";
-import LifeCycleA from "./Component/LifeCycleA";
+import Product from "./Component/Product";
 
 import './App.css';
 
@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <LifeCycleA></LifeCycleA>
+        <Product></Product>
       </div>
     );
   }

@@ -13,6 +13,7 @@
 
 // import Routing from './Component/Routing';
 
+// import LifeCycleA from "./Component/LifeCycleA";
 
 
 // const name = <span>WALEED KHAN</span>;
@@ -87,3 +88,5 @@
 //      <Form></Form>
 
 //      <Routing></Routing>
+
+//      <LifeCycleA></LifeCycleA>
