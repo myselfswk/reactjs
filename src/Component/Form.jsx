@@ -36,19 +36,20 @@ export default class Form extends Component {
     }
 
     render() {
+        const { username, password, address } = this.state;
         return (
             <form onSubmit={this.handleSubmit}>
                 <div>
                     <label>Username: </label>
-                    <input type='text' value={this.state.username} onChange={this.handleUsername} />
+                    <input type='text' value={username} onChange={this.handleUsername} />
                 </div>
                 <div>
                     <label>Passowrd: </label>
-                    <input type='password' value={this.state.password} onChange={this.handlePassword} />
+                    <input type='password' value={password} onChange={this.handlePassword} />
                 </div>
                 <div>
                     <label>Address: </label>
-                    <textarea value={this.state.address} onChange={this.handleAddress}></textarea>
+                    <textarea value={address} onChange={this.handleAddress}></textarea>
                 </div>
                 <button>Submit</button>
             </form>

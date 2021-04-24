@@ -6,16 +6,14 @@
 // import Channel from "./Component/Channel";
 // import FFunctionClick from "./Component/FFunctionClick";
 // import CFunctionClick from "./Component/CFunctionClick";
-
-// import StyleSheet from "./Component/StyleSheet";
 // import Inline from './Component/Inline';
 // import Form from "./Component/Form";
-
 // import Routing from './Component/Routing';
-
 // import LifeCycleA from "./Component/LifeCycleA";
-
 // import Product from "./Component/Product";
+// import PostList from "./Component/PostList";
+
+// import StyleSheet from "./Component/StyleSheet";
 
 
 // const name = <span>WALEED KHAN</span>;
@@ -88,9 +86,7 @@
         <Inline /> */}
 
 //      <Form></Form>
-
 //      <Routing></Routing>
-
 //      <LifeCycleA></LifeCycleA>
-
 //      <Product></Product>
+//      <PostList></PostList>

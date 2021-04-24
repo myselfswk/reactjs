@@ -1,5 +1,5 @@
 import React from "react";
-import PostList from "./Component/PostList";
+import PostForm from "./Component/PostForm";
 
 import './App.css';
 
@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-      <PostList></PostList>
+      <PostForm></PostForm>
       </div>
     );
   }
