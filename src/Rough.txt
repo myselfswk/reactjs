@@ -15,6 +15,7 @@
 
 // import StyleSheet from "./Component/StyleSheet";
 
+// import PostForm from "./Component/PostForm";
 
 // const name = <span>WALEED KHAN</span>;
 // const numbers = [1, 2, 3, 4, 5, 6];
@@ -90,3 +91,4 @@
 //      <LifeCycleA></LifeCycleA>
 //      <Product></Product>
 //      <PostList></PostList>
+//      <PostForm></PostForm>

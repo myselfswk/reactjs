@@ -1,13 +1,13 @@
 import React from "react";
-import PostForm from "./Component/PostForm";
 
 import './App.css';
+import HookCounter from "./Component/HookCounter";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-      <PostForm></PostForm>
+      <HookCounter></HookCounter>
       </div>
     );
   }
