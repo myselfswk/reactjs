@@ -12,10 +12,13 @@
 // import LifeCycleA from "./Component/LifeCycleA";
 // import Product from "./Component/Product";
 // import PostList from "./Component/PostList";
+// import PostForm from "./Component/PostForm";
+// import HookCounter from "./Component/HookCounter";
+// import HookObject from "./Component/HookObject";
 
 // import StyleSheet from "./Component/StyleSheet";
 
-// import PostForm from "./Component/PostForm";
+
 
 // const name = <span>WALEED KHAN</span>;
 // const numbers = [1, 2, 3, 4, 5, 6];
@@ -92,3 +95,5 @@
 //      <Product></Product>
 //      <PostList></PostList>
 //      <PostForm></PostForm>
+//      <HookCounter></HookCounter>
+//      <HookObject></HookObject>
