@@ -15,6 +15,8 @@
 // import PostForm from "./Component/PostForm";
 // import HookCounter from "./Component/HookCounter";
 // import HookObject from "./Component/HookObject";
+// import HookArray from "./Component/HookArray";
+// import FunctionalCounterOne from "./Component/FunctionalCounterOne";
 
 // import StyleSheet from "./Component/StyleSheet";
 
@@ -97,3 +99,5 @@
 //      <PostForm></PostForm>
 //      <HookCounter></HookCounter>
 //      <HookObject></HookObject>
+//      <HookArray></HookArray>
+//      <FunctionalCounterOne></FunctionalCounterOne>
